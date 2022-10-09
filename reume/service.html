@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/libcss/all.min.css">
+    <link rel="stylesheet" href="assets/libcss/animated.min.css">
+    <link rel="stylesheet" href="assets/libcss/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="app position-relative overflow-hidden">
+        <div class="offcanvas position-absolute offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header overflow-hidden position-relative">
+                <h5 class="offcanvas-title position-relative" id="offcanvasScrollingLabel">مرحبا بك في ووز</h5>
+                <span></span>
+                <label class="circle-hide rounded-circle position-absolute top-50 start-50 translate-middle "></label>
+            </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-between">
+                <ul class="menu fs-5 list-unstyled">
+                    <li>
+                        <a href="index.html">
+                            <span><i class="fas fa-home"></i></span>
+                            <span>الرئيسية</span>                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span><i class="fas fa-info-circle"></i></span>
+                            <span>من نحن</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="experience.html">
+                            <span><i class="fas fa-chart-bar"></i></span>
+                            <span>مهاراتنا</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work.html">
+                            <span><i class="fas fa-images"></i></span>
+                            <span>اعمالنا</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="service.html">
+                            <span><i class="fas fa-network-wired"></i></span>
+                            <span>خدماتنا</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span><i class="far fa-paper-plane"></i></span>
+                            <span>تواصل معنا</span>                            
+                        </a>
+
+                    </li>
+                </ul>
+                <ul class="list-unstyled d-flex flex-row justify-content-evenly">
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="light" selected="selected">Light</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span class="vr h-100"></span>
+                    </li>
+                    <li class="d-flex flex-row align-items-center">
+                        <span>EN</span>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input"  type="checkbox" value="false" role="switch"
+                                id="flexSwitchCheckDefault">
+                        </div>
+                        <span>AR</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content" data-img="../assets/images/1366.png">
+            <div class="placeholder-main-content position-absolute top-0 bottom-0 start-0 end-0 bg-white z-index:800"></div>
+             <!-- this button to show and hide menu -->
+            <div class="btn-toggle-side position-absolute rounded-2 d-flex justify-content-center align-items-center overflow-hidden " data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- <div class="placeholder-main-content position-absolute top-0 bottom-0 start-0 end-0 bg-danger z-index:900"></div> -->
+        </div>
+        <!-- icons social media -->
+        <div>
+            <ul class="icons-social list-unstyled d-flex flex-column overflow-hidden position-absolute">
+                <li class="item-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="item-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="item-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="item-social">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/libjs/all.min.js"></script>
+    <script src="assets/libjs/mixitup.min.js"></script>
+    <script src="assets/libjs/bootstrap.bundle.min.js"></script>
+    <script src="assets/libjs/html5shiv.min.js"></script>
+    <!-- <script src="assets/libjs/bootstrap.min.js"></script> -->
+    <script src="assets/libjs/jquery-3.2.1.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
